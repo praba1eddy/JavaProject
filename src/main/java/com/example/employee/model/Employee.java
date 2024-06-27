@@ -22,7 +22,7 @@ public class Employee {
     @NotEmpty(message = "Name should not be empty")
     @Size(min = 5,max = 10,message = "length is miss matching")
     private String name;
-    @NotEmpty(message = "Address should not be empty")
+    @NotEmpty(message = "Address should not be empty ,  ")
     private String address;
 
 
